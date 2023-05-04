@@ -96,7 +96,7 @@ def run(problem, params):
 
 def crossover(p1, p2, gamma=0.1):
     c1 = p1.deepcopy()
-    c2 = p1.deepcopy()
+    c2 = p2.deepcopy()
     alpha = np.random.uniform(-gamma, 1+gamma, *c1.value.shape)
     c1.value = alpha*p1.value + (1-alpha)*p2.value
     c2.value = alpha*p2.value + (1-alpha)*p1.value
