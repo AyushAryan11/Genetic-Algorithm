@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from ypstruct import structure #modified version of dictionary
+from ypstruct import structure # modified version of dictionary
 import ga
 
 # Cost Function to optimize by making it minimum
