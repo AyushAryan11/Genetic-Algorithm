@@ -3,13 +3,13 @@ from ypstruct import structure
 
 def run(problem, params):
     
-    # Importing Problem Data
+    # Importing Problem Information
     costfunc = problem.costfunc
     nvar = problem.nvar
     varmin = problem.varmin
     varmax = problem.varmax
 
-    # Parameters  of the GA
+    # Parameters  of the Genetic Algorithm
     maxit = params.maxit
     npop = params.npop
     beta = params.beta
