@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from ypstruct import structure # modified version of dictionary
 import ga
 
-# Cost Function to optimize by making it minimum
+# Cost Function to optimize
 def sphere(x):
     return sum(x**2)
 
