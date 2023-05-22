@@ -3,7 +3,7 @@ from ypstruct import structure
 
 def run(problem, params):
     
-    # Importing Problem Information
+
     costfunc = problem.costfunc
     nvar = problem.nvar
     varmin = problem.varmin
