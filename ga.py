@@ -9,7 +9,7 @@ def run(problem, params):
     varmin = problem.varmin
     varmax = problem.varmax
 
-    # Parameters  of the Genetic Algorithm    
+    # Parameters of the Genetic Algorithm    
     maxit = params.maxit
     npop = params.npop
     beta = params.beta
